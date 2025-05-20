@@ -2,7 +2,7 @@
 # Archivo de pruebas
 test_trial1 <- function(gastos_mayores_transporte) {
 	# Ciudades esperadas
-	ciudades_esperadas <- c("Armenia", "Bogotá", "Bucaramanga y A.M.", "Cali", "Manizales y A.M.", "Medellín y A.M.")
+	ciudades_esperadas <- c("Armenia", "Bogotá", "Bucaramanga y A.M.", "Cali", "Manizales y A.M.", "Medellín y A.M.", "Neiva", "Rionegro", "Tunja", "Villavicencio")
 	
 	# Verificación
 	if (all(c("Ciudad", "Transporte") %in% colnames(gastos_mayores_transporte))) {
