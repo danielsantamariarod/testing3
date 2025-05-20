@@ -33,9 +33,9 @@ hint_trial1 <- function() {
   )
 }
 solution_trial1 <- function(){
+  cat("✅ Solución:\n\n")
   cat('gastos_mayores_transporte <- subset(gasto_col_df, Transporte > 70)[, c("Ciudad", "Transporte")]')
 
-  e
   cat("✅ Explicación de la solución:\n\n")
   
   cat("La instrucción:\n")
